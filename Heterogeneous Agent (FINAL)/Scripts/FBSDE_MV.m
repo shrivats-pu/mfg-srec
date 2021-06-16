@@ -168,5 +168,5 @@ Nplayers = 200;
 S_finite = FinitePlayerGame(x, p, Y, zeta, gamma, sigma, h,R, P, t, K, pi_k, Nplayers, mu0_mu, mu0_sigma);
 
 % simulating path for representative agents from each sub-population
-NSims = 1;
-[bank, cash, gen, trade] =SimPath(t, x, [0.6, 0.2], g, Gamma, S, zeta, gamma, sigma, h, P, R, K, Y, NSims);
+% NSims = 1;
+% [bank, cash, gen, trade] =SimPath(t, x, [0.6, 0.2], g, Gamma, S, zeta, gamma, sigma, h, P, R, K, Y, NSims);
